@@ -1,0 +1,13 @@
+{
+  "name": "zola",
+  "version": "1.0.0",
+  "description": "Zola website",
+  "scripts": {
+    "lint:md": "markdownlint 'test_site/content/**/*.md'",
+    "lint:md:fix": "npm run lint:md -- --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "markdownlint-cli": "^0.27.1"
+  }
+}
